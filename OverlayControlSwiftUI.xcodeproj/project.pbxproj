@@ -1,0 +1,348 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B601BE4626DCF9FB009F93D3 /* OverlayControlApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B601BE4526DCF9FB009F93D3 /* OverlayControlApp.swift */; };
+		B601BE4826DCF9FB009F93D3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B601BE4726DCF9FB009F93D3 /* ContentView.swift */; };
+		B601BE4A26DCF9FD009F93D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B601BE4926DCF9FD009F93D3 /* Assets.xcassets */; };
+		B601BE4D26DCF9FD009F93D3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B601BE4C26DCF9FD009F93D3 /* Preview Assets.xcassets */; };
+		B601BE5C26DD0B03009F93D3 /* OverlayControlContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B601BE5B26DD0B03009F93D3 /* OverlayControlContainer.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B601BE4226DCF9FB009F93D3 /* OverlayControlSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OverlayControlSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B601BE4526DCF9FB009F93D3 /* OverlayControlApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayControlApp.swift; sourceTree = "<group>"; };
+		B601BE4726DCF9FB009F93D3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B601BE4926DCF9FD009F93D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B601BE4C26DCF9FD009F93D3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B601BE4E26DCF9FD009F93D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B601BE4F26DCF9FD009F93D3 /* OverlayControl.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OverlayControl.entitlements; sourceTree = "<group>"; };
+		B601BE5526DD0A46009F93D3 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B601BE5726DD0A56009F93D3 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		B601BE5926DD0A5F009F93D3 /* demo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = demo.gif; sourceTree = "<group>"; };
+		B601BE5B26DD0B03009F93D3 /* OverlayControlContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayControlContainer.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B601BE3F26DCF9FB009F93D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B601BE3926DCF9FB009F93D3 = {
+			isa = PBXGroup;
+			children = (
+				B601BE5526DD0A46009F93D3 /* README.md */,
+				B601BE5726DD0A56009F93D3 /* LICENSE */,
+				B601BE5926DD0A5F009F93D3 /* demo.gif */,
+				B601BE4426DCF9FB009F93D3 /* OverlayControl */,
+				B601BE4326DCF9FB009F93D3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B601BE4326DCF9FB009F93D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B601BE4226DCF9FB009F93D3 /* OverlayControlSwiftUI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B601BE4426DCF9FB009F93D3 /* OverlayControl */ = {
+			isa = PBXGroup;
+			children = (
+				B601BE4526DCF9FB009F93D3 /* OverlayControlApp.swift */,
+				B601BE4726DCF9FB009F93D3 /* ContentView.swift */,
+				B601BE5B26DD0B03009F93D3 /* OverlayControlContainer.swift */,
+				B601BE4926DCF9FD009F93D3 /* Assets.xcassets */,
+				B601BE4E26DCF9FD009F93D3 /* Info.plist */,
+				B601BE4F26DCF9FD009F93D3 /* OverlayControl.entitlements */,
+				B601BE4B26DCF9FD009F93D3 /* Preview Content */,
+			);
+			path = OverlayControl;
+			sourceTree = "<group>";
+		};
+		B601BE4B26DCF9FD009F93D3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B601BE4C26DCF9FD009F93D3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B601BE4126DCF9FB009F93D3 /* OverlayControlSwiftUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B601BE5226DCF9FD009F93D3 /* Build configuration list for PBXNativeTarget "OverlayControlSwiftUI" */;
+			buildPhases = (
+				B601BE3E26DCF9FB009F93D3 /* Sources */,
+				B601BE3F26DCF9FB009F93D3 /* Frameworks */,
+				B601BE4026DCF9FB009F93D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OverlayControlSwiftUI;
+			productName = OverlayControl;
+			productReference = B601BE4226DCF9FB009F93D3 /* OverlayControlSwiftUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B601BE3A26DCF9FB009F93D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					B601BE4126DCF9FB009F93D3 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = B601BE3D26DCF9FB009F93D3 /* Build configuration list for PBXProject "OverlayControlSwiftUI" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B601BE3926DCF9FB009F93D3;
+			productRefGroup = B601BE4326DCF9FB009F93D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B601BE4126DCF9FB009F93D3 /* OverlayControlSwiftUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B601BE4026DCF9FB009F93D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B601BE4D26DCF9FD009F93D3 /* Preview Assets.xcassets in Resources */,
+				B601BE4A26DCF9FD009F93D3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B601BE3E26DCF9FB009F93D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B601BE4826DCF9FB009F93D3 /* ContentView.swift in Sources */,
+				B601BE4626DCF9FB009F93D3 /* OverlayControlApp.swift in Sources */,
+				B601BE5C26DD0B03009F93D3 /* OverlayControlContainer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B601BE5026DCF9FD009F93D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B601BE5126DCF9FD009F93D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		B601BE5326DCF9FD009F93D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = OverlayControl/OverlayControl.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"OverlayControl/Preview Content\"";
+				DEVELOPMENT_TEAM = ABN4W3C7MV;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = OverlayControl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.genjiapp.OverlayControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B601BE5426DCF9FD009F93D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = OverlayControl/OverlayControl.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"OverlayControl/Preview Content\"";
+				DEVELOPMENT_TEAM = ABN4W3C7MV;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = OverlayControl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.genjiapp.OverlayControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B601BE3D26DCF9FB009F93D3 /* Build configuration list for PBXProject "OverlayControlSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B601BE5026DCF9FD009F93D3 /* Debug */,
+				B601BE5126DCF9FD009F93D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B601BE5226DCF9FD009F93D3 /* Build configuration list for PBXNativeTarget "OverlayControlSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B601BE5326DCF9FD009F93D3 /* Debug */,
+				B601BE5426DCF9FD009F93D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B601BE3A26DCF9FB009F93D3 /* Project object */;
+}
