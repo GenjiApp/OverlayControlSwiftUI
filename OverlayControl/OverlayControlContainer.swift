@@ -27,6 +27,7 @@ struct OverlayControlContainer<Content: View, OverlayControl: View>: View {
               .fill(Color(.windowBackgroundColor))
               .shadow(radius: 5)
           )
+          .opacity(self.isHover || self.isEditing ? 1.0 : 0.0)
           .onHover { hovering in
             self.timer?.invalidate()
             self.timer = nil
@@ -36,7 +37,6 @@ struct OverlayControlContainer<Content: View, OverlayControl: View>: View {
           }
       }
       .padding(.bottom, 16)
-      .opacity(self.isHover || self.isEditing ? 1.0 : 0.0)
     }
     .onAppear {
       self.timer = Timer.scheduledTimer(withTimeInterval: 2.0, repeats: false) { _ in
